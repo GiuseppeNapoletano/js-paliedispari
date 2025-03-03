@@ -10,7 +10,7 @@ console.log(sommaNumeri);
 const finale = pari_dispari(sommaNumeri)
 console.log(finale);
 let messaggio
-if (isNaN(numeroUtente) === true) {
+if (isNaN(numeroUtente) === true || (pariDispariUtente != `pari` && pariDispariUtente != `dispari`)) {
     messaggio = `Valori inseriti errati! Ricarica la pagina!`
 }
 else if (pariDispariUtente === finale) {
